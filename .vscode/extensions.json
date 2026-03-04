@@ -1,69 +1,129 @@
 {
   "recommendations": [
-    "alefragnani.bookmarks",
+    // AI
+    "Anthropic.claude-code",
+
+    // Angular
     "angular.ng-template",
+
+    // Astro
+    "astro-build.astro-vscode",
+
+    // C / C++
+    "ms-vscode.cmake-tools",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cpptools-themes",
+    "ms-vscode.makefile-tools",
+    "ms-vscode.mono-debug",
+    "twxs.cmake",
+    "vadimcn.vscode-lldb",
+
+    // CSS / Styling
+    "antfu.unocss",
+    "csstools.postcss",
+    "mrmlnc.vscode-less",
+    "naumovs.color-highlight",
+    "stylelint.vscode-stylelint",
+    "voorjaar.windicss-intellisense",
+
+    // Dart / Flutter
+    "dart-code.dart-code",
+    "dart-code.flutter",
+
+    // Data / Config
+    "mechatroner.rainbow-csv",
+    "mikestead.dotenv",
+    "mrmlnc.vscode-json5",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+
+    // DevOps
+    "github.vscode-github-actions",
+    "ivory-lab.jenkinsfile-support",
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+
+    // Editor
+    "alefragnani.bookmarks",
     "antfu.browse-lite",
     "antfu.file-nesting",
     "antfu.goto-alias",
+    "antfu.retypewriter",
+    "antfu.smart-clicks",
+    "antfu.where-am-i",
+    "be5invis.vscode-custom-css",
+    "christian-kohler.path-intellisense",
+    "dfarley1.file-picker",
+    "editorconfig.editorconfig",
+    "exodiusstudios.comment-anchors",
+    "jsynowiec.vscode-insertdatestring",
+    "mpontus.tab-cycle",
+    "ritwickdey.liveserver",
+    "russell.any-rule",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+
+    // Formatting / Linting
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+
+    // Git
+    "antfu.open-in-github-button",
+    "chaitanyashahare.lazygit",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "fabiospampinato.vscode-open-in-github",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    "waderyan.gitblame",
+
+    // Go
+    "golang.go",
+
+    // HTML
+    "ecmel.vscode-html-css",
+    "formulahendry.auto-rename-tag",
+    "zignd.html-css-class-completion",
+
+    // i18n
+    "lokalise.i18n-ally",
+
+    // Icons / Themes
     "antfu.iconify",
     "antfu.icons-carbon",
-    "antfu.open-in-github-button",
-    "antfu.retypewriter",
-    "antfu.slidev",
-    "antfu.smart-clicks",
     "antfu.theme-vitesse",
-    "antfu.unocss",
+    "pkief.material-icon-theme",
+
+    // JavaScript / TypeScript
     "antfu.vite",
-    "antfu.where-am-i",
-    "astro-build.astro-vscode",
-    "be5invis.vscode-custom-css",
+    "christian-kohler.npm-intellisense",
+    "connor4312.esbuild-problem-matchers",
+    "dsznajder.es7-react-js-snippets",
+    "fill-labs.dependi",
+    "johnsoncodehk.vscode-tsconfig-helper",
+
+    // Markdown / Docs
     "bierner.markdown-mermaid",
     "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
-    "chaitanyashahare.lazygit",
-    "christian-kohler.npm-intellisense",
-    "christian-kohler.path-intellisense",
-    "connor4312.esbuild-problem-matchers",
-    "csstools.postcss",
-    "dart-code.dart-code",
-    "dart-code.flutter",
     "davidanson.vscode-markdownlint",
-    "dbaeumer.vscode-eslint",
-    "dfarley1.file-picker",
-    "donjayamanne.githistory",
-    "dsznajder.es7-react-js-snippets",
-    "eamodio.gitlens",
-    "ecmel.vscode-html-css",
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
-    "exodiusstudios.comment-anchors",
-    "fabiospampinato.vscode-open-in-github",
-    "fill-labs.dependi",
     "foam.foam-vscode",
-    "formulahendry.auto-rename-tag",
-    "github.vscode-github-actions",
-    "github.vscode-pull-request-github",
-    "golang.go",
-    "hbenl.vscode-test-explorer",
-    "humao.rest-client",
-    "iceworks-team.iceworks-time-master",
-    "icrawl.discord-vscode",
-    "ivory-lab.jenkinsfile-support",
-    "jock.svg",
-    "johnsoncodehk.vscode-tsconfig-helper",
-    "jsynowiec.vscode-insertdatestring",
-    "kisstkondoros.vscode-gutter-preview",
-    "lokalise.i18n-ally",
-    "mechatroner.rainbow-csv",
-    "mhutchie.git-graph",
-    "mikestead.dotenv",
+    "shd101wyy.markdown-preview-enhanced",
+    "unifiedjs.vscode-mdx",
+
+    // Other Languages
     "modular-mojotools.vscode-mojo",
     "monada.vscode-wing",
-    "mpontus.tab-cycle",
-    "mrmlnc.vscode-json5",
-    "mrmlnc.vscode-less",
-    "ms-azuretools.vscode-docker",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "ms-playwright.playwright",
+    "tommorris.mako",
+
+    // Productivity
+    "iceworks-team.iceworks-time-master",
+    "icrawl.discord-vscode",
+    "wakatime.vscode-wakatime",
+    "yunyoujun.valaxy",
+    "yxl.cloudmusic",
+
+    // Python / Jupyter
     "ms-python.black-formatter",
     "ms-python.debugpy",
     "ms-python.flake8",
@@ -74,46 +134,41 @@
     "ms-toolsai.jupyter-renderers",
     "ms-toolsai.vscode-jupyter-cell-tags",
     "ms-toolsai.vscode-jupyter-slideshow",
+
+    // Remote / Collaboration
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-ssh-edit",
     "ms-vscode-remote.remote-wsl",
-    "ms-vscode.cmake-tools",
-    "ms-vscode.cpptools",
-    "ms-vscode.cpptools-extension-pack",
-    "ms-vscode.cpptools-themes",
-    "ms-vscode.extension-test-runner",
-    "ms-vscode.makefile-tools",
-    "ms-vscode.mono-debug",
     "ms-vscode.remote-explorer",
-    "ms-vscode.test-adapter-converter",
     "ms-vsliveshare.vsliveshare",
-    "naumovs.color-highlight",
-    "orta.vscode-jest",
-    "pkief.material-icon-theme",
-    "redhat.vscode-yaml",
-    "ritwickdey.liveserver",
-    "russell.any-rule",
+
+    // REST / API
+    "humao.rest-client",
+
+    // Rust
     "rust-lang.rust-analyzer",
-    "sainnhe.gruvbox-material",
-    "shd101wyy.markdown-preview-enhanced",
-    "statelyai.stately-vscode",
-    "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint",
     "swellaby.vscode-rust-test-adapter",
-    "tamasfe.even-better-toml",
     "tauri-apps.tauri-vscode",
-    "tommorris.mako",
-    "twxs.cmake",
-    "unifiedjs.vscode-mdx",
-    "usernamehw.errorlens",
-    "vadimcn.vscode-lldb",
-    "voorjaar.windicss-intellisense",
-    "vue.volar",
-    "waderyan.gitblame",
-    "wakatime.vscode-wakatime",
-    "yunyoujun.valaxy",
-    "yxl.cloudmusic",
-    "zignd.html-css-class-completion",
+
+    // Slides
+    "antfu.slidev",
+
+    // State Management
+    "statelyai.stately-vscode",
+
+    // SVG / Images
+    "jock.svg",
+    "kisstkondoros.vscode-gutter-preview",
+
+    // Testing
+    "hbenl.vscode-test-explorer",
+    "ms-playwright.playwright",
+    "ms-vscode.extension-test-runner",
+    "ms-vscode.test-adapter-converter",
+    "orta.vscode-jest",
+
+    // Vue
+    "vue.volar"
   ]
 }

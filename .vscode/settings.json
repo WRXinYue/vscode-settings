@@ -88,7 +88,17 @@
   "window.title": "${rootName}", // this make tabs more readable
   "window.titleBarStyle": "custom",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  // ========== Extension configs ========== 
+  // ========== Extension configs ==========
+  "claudeCode.environmentVariables": [
+    {
+      "name": "HTTPS_PROXY",
+      "value": "http://127.0.0.1:7897"
+    },
+    {
+      "name": "HTTP_PROXY",
+      "value": "http://127.0.0.1:7897"
+    },
+  ],
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
   "errorLens.enabledDiagnosticLevels": [
@@ -235,4 +245,5 @@
   "fileNestingUpdater.promptOnAutoUpdate": true,
   "fileNestingUpdater.upstreamRepo": "antfu/vscode-file-nesting-config",
   "fileNestingUpdater.upstreamBranch": "main",
+
 }
